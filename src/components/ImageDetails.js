@@ -48,8 +48,8 @@ const Content = styled(CardContent)`
   & div {
     display: flex;
     padding-right: 5px;
-    margin-bottom: 30px;
-    margin-top: 3px;
+    margin-bottom: 25px;
+    margin-top: 1px;
 
     & p {
       padding-right: 4px;

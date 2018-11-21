@@ -8,7 +8,7 @@ const Container = styled.main`
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background: rgba(103, 128, 159, 1);
+  background: rgba(46, 49, 49, 1);;
   color: white;
 `
 

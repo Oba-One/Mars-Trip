@@ -1,14 +1,12 @@
 // EXTERNAL IMPORTS //
-import React, { Fragment } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Select from '@material-ui/core/Select'
-import InputLabel from '@material-ui/core/InputLabel'
 import MenuItem from '@material-ui/core/MenuItem'
 import FormHelperText from '@material-ui/core/FormHelperText'
 import FormControl from '@material-ui/core/FormControl'
 import Button from '@material-ui/core/Button'
 import CardActions from '@material-ui/core/CardActions'
-import CardContent from '@material-ui/core/CardContent'
 import TextField from '@material-ui/core/TextField'
 import FilledInput from '@material-ui/core/FilledInput'
 
@@ -89,6 +87,7 @@ const Filter = props => {
         <Content>
           <FormInput>
             <Select
+              required
               value={props.filter.rover}
               onChange={props.filterChange('rover')}
               input={<FilledInput name="Rover" />}>
@@ -102,6 +101,7 @@ const Filter = props => {
           </FormInput>
           <FormInput>
             <Select
+              required
               value={props.filter.camera}
               onChange={props.filterChange('camera')}
               input={<FilledInput name="Camera" />}>
@@ -111,6 +111,7 @@ const Filter = props => {
           </FormInput>
           <FormInput>
             <TextField
+              required
               value={props.filter.sol}
               onChange={props.filterChange('sol')}
               helperText="1-2290"

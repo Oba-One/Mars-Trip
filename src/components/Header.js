@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import NasaLogo from '../assets/nasaLogo.png'
-import GithubLogo from '../assets/githubLogo.svg'
 
 const HeaderWrapper = styled.header`
   height: 69px;
@@ -38,8 +37,6 @@ const Img = styled.img`
 `
 
 const Links = styled.div``
-
-const Link = styled.i``
 
 const Div = styled.div``
 

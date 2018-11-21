@@ -25,7 +25,7 @@ const Animated = styled(animated.div)`
   width: 100%;
 `
 
-const API_KEY = `G0Q3Ii24vlfAWOaZyyPU1dYVLQTjl9lIpeKUhbdU`
+const API_KEY = process.env.API_KEY
 const API_URL = `https://api.nasa.gov/mars-photos/api/v1/rovers`
 
 class Home extends Component {
@@ -44,7 +44,7 @@ class Home extends Component {
   async componentDidMount() {
     try {
       const { rover } = this.state.filter
-      const response = await axios.get(`${API_URL}/${rover}/photos?sol=1000&page=2&api_key=${API_KEY}`)
+      const response = await axios.get(`${API_URL}/${rover}/photos?sol=1000&api_key=${API_KEY}`)
       const data = await response.data
       console.log(data)
 

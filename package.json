@@ -19,6 +19,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
+    "prestart": "npm install -g serve",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

@@ -55,7 +55,7 @@ const Bio = props => {
             As we prepare to go to Mars to explore and build colonies. I thought it would be fun to make an app to view
             some of the few images we have of the planet. Nasa provides a great API for viewing photos of their 3 Mars
             rovers from Curiosity, Opportunity, and Spirit. So for anyone looking to be the first astronauts to colonize
-            Mars or learn more about our solar system. This app is a great starting point to visialize the conditions
+            Mars or learn more about our solar system. This app is a great starting point to visualize the conditions
             and terrain. To learn more follow the links below on Nasa and SpaceX Mars exploration.
           </Typography>
         </Content>

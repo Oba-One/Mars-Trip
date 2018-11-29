@@ -36,8 +36,9 @@ const Header = styled.div`
   display: flex;
   height: 40px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 7px;
   padding: 0 20px 0 0;
+  font-size: 20px;
 `
 
 const Content = styled(CardContent)`
@@ -48,15 +49,17 @@ const Content = styled(CardContent)`
   & div {
     display: flex;
     padding-right: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 1px;
 
     & p {
       padding-right: 4px;
       color: rgba(150, 40, 27, 1);
+      font-size: 13px;
     }
   }
   & h5 {
+    font-size: 15px;
   }
 `
 

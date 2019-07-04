@@ -14,7 +14,8 @@
     "react-scripts": "2.0.3",
     "react-spinkit": "3.0.0",
     "react-spring": "6.1.8",
-    "styled-components": "4.0.3"
+    "styled-components": "4.0.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -22,12 +23,15 @@
     "prestart": "npm install -g serve",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
